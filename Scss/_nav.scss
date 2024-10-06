@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+
+}
+nav{
+    @include flexBox(flex, column , start , start);
+    background-color: #00b1dd;
+    ul{
+        @include flexBox(flex, row , center, space-evenly);
+        @include tamaño(3em, -webkit-fill-available , 0 , 0);
+        li{
+            a{
+                &.logo{
+                    width: 300px;
+                    @include flexBox(flex,row ,start , space-evenly);
+                }
+                color: #ffff;
+            }
+        }
+    }
+}
+

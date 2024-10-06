@@ -1,0 +1,16 @@
+body{
+    position: relative;
+    padding-bottom: 3em;
+    min-width: 100vh;
+}
+main{
+    div{
+        img{
+            &.backgroundImage{
+            @include tamaño(61.5rem,-webkit-fill-available ,0 ,0 );
+            }
+        }
+           
+    }
+}
+

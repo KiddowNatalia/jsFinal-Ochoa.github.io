@@ -1,0 +1,14 @@
+$paleta:("colorPrimario": #00b1dd, "colorSecundario": #01003f, "colorTerciario": #ffff );
+
+@mixin flexBox($display, $flexDirection, $alignItems, $justifyContent){
+    display: $display;
+    flex-direction: $flexDirection;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
+@mixin tamaño ($height, $width, $margin, $padding){
+    height: $height;
+    width: $width;
+    margin: $margin;
+    padding: $padding;
+}

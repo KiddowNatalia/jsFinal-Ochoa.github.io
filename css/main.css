@@ -1,0 +1,90 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  background-color: #00b1dd;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 3em;
+  width: -webkit-fill-available;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  color: white;
+}
+nav ul li a.logo {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #00b1dd;
+  height: 300px;
+  width: -webkit-fill-available;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: -webkit-fill-available;
+  margin: 0px;
+  padding: 0px;
+}
+footer ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 1em;
+  width: 90%;
+  margin: 0;
+  padding: 1em;
+}
+footer ul li a {
+  text-decoration: none;
+}
+footer ul li a.footer__textColor {
+  color: white;
+}
+
+body {
+  position: relative;
+  padding-bottom: 3em;
+  min-width: 100vh;
+}
+
+main div img.backgroundImage {
+  height: 61.5rem;
+  width: -webkit-fill-available;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

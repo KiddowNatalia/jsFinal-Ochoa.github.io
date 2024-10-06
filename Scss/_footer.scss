@@ -1,0 +1,21 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: map-get($map: $paleta, $key: "colorPrimario" );
+    @include tamaño(300px,-webkit-fill-available , 0 , 0 );
+    @include flexBox(flex,column ,center , center);
+    ul{
+        @include flexBox(flex, column , center , center );
+        @include tamaño(500px,-webkit-fill-available, 0px, 0px);
+        li{
+            @include flexBox(flex,column ,center , center);
+            @include tamaño(1em, 90% , 0  , 1em );
+            a{
+                text-decoration: none;
+                &.footer__textColor{
+                    color: map-get($map: $paleta, $key: "colorTerciario" );
+                }
+            }
+        }
+    }
+}
